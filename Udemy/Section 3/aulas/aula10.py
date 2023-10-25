@@ -30,3 +30,13 @@ print(*lista[1])
 
 # Desempacotamento de lista dentro de lista
 print(*lista_dois, sep="\n")
+
+# Desempacotar listas
+lista = [
+    [50, 'noki'],
+    [27, 'flinston'],
+    [78, 'jhonson']
+]
+
+for i, nome in lista:
+    print(i, nome)

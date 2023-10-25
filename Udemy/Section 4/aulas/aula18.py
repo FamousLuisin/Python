@@ -36,7 +36,7 @@ dados_pessoa = {
     'altura': 1.75
 }
 
-pessoa_completa = {**pessoa, **dados_pessoa} # Fomar simples de desempacotar dicionarios
+pessoa_completa = {**pessoa, **dados_pessoa} # Fomar simples de desempacotar dicionarios usa (**)
 
 print(pessoa_completa)
 
