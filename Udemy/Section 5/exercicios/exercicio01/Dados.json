@@ -1,0 +1,14 @@
+[
+  {
+    "marca": "Ferrari",
+    "modelo": "Spider",
+    "ano": "2012",
+    "cor": "Vermelha"
+  },
+  {
+    "marca": "Porsche",
+    "modelo": "911",
+    "ano": "2020",
+    "cor": "Azul"
+  }
+]

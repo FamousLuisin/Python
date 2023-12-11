@@ -1,0 +1,4 @@
+Success: A52 ligado (LogFileMixin)
+Error: A52 desligado (LogFileMixin)
+Success: A52 ligado (Smartphone)
+Error: A52 desligado (Smartphone)
