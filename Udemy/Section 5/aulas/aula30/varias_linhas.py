@@ -1,0 +1,5 @@
+# Descrição de varias linhas
+""" Documentação
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultricies, diam quis porta facilisis, tortor eros interdum nibh, id consectetur turpis lectus sit amet massa. Phasellus diam purus, auctor quis dictum non, tempor suscipit lorem. Praesent tristique augue urna, a faucibus lectus consequat id. Aenean non massa sit amet nisi finibus condimentum non sit amet diam. Donec iaculis libero vel lacinia mattis. In hac habitasse platea dictumst. Proin rutrum diam turpis, vel facilisis ipsum luctus et. Donec quis feugiat nisl, quis iaculis diam. Duis neque tortor, posuere eget dignissim vel, vulputate sed risus. Phasellus semper ultricies nibh, in laoreet risus. Pellentesque et fermentum ex, sed dapibus augue. Donec porttitor vulputate eleifend. Mauris porttitor nulla eleifend, consectetur dui eu, porttitor enim. Aliquam a luctus dolor, ac ultrices massa.
+"""
