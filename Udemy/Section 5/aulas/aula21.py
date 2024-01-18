@@ -22,6 +22,7 @@ class Cordenada():
     def __init__(self, x, y, z='String'):
         self.x = x
         self.y = y
+        self.z = z
 
     # Método str = O retorno qualquer do objeto
     def __str__(self):
