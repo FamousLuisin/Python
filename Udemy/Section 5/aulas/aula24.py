@@ -19,6 +19,8 @@
 # with open('aula149.txt', 'w') as arquivo:
 #     ...
 
+import os
+
 class MyContextManager:
 
     def __init__(self, caminho_arquivo, modo):
@@ -51,13 +53,13 @@ class MyContextManager:
         # return True 
         
 
-caminho = 'C:\\Users\\lufim\\Documents\\GitHub\\Python\\Udemy\\Section 5\\aulas\\aula24\\teste.txt'
+caminho = os.path.dirname(__file__) + '/aula24/teste.txt'
 instancia = MyContextManager(caminho, 'w')
 
 # O retorno do Enter vai para a variavel algo
 # Tudo q tenha o conceito de abrir e fechar, conectar e desconectar, agarra e liberar
 with instancia as arquivo:
     arquivo.write('Linha 1\n')
-    arquivo.write('Linha 2\n', 123)
+    arquivo.write('Linha 2\n')
     arquivo.write('Linha 3\n')
     print('with', arquivo)

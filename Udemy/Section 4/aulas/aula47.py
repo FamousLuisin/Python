@@ -21,7 +21,7 @@
 
 import os
 
-caminho_pasta = 'C:\\Users\\lufim\\Documents\\GitHub\\Python\\Udemy\\Section 4\\aulas\\aula47\\'
+caminho_pasta = os.path.dirname(__file__) + '/aula47/'
 caminho_arquivo = caminho_pasta + 'aula47.txt'
 
 # open abre o arquivo

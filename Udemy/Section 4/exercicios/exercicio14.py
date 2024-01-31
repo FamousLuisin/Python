@@ -70,7 +70,7 @@ def salvar(tarefas, caminho_arquivo):
     return dados
 
 
-CAMINHO_ARQUIVO = 'C:\\Users\\lufim\\Documents\\GitHub\\Python\\Udemy\\Section 4\\exercicios\\exercicio14\\exercicio14.json'
+CAMINHO_ARQUIVO = os.path.dirname(__file__) + '/exercicio14/exercicio14.json'
 tarefas = ler([], CAMINHO_ARQUIVO)
 tarefas_refazer = []
 

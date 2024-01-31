@@ -2,6 +2,7 @@
 # Criando e usando gerenciadores de context
 
 from contextlib import contextmanager
+import os
 
 # Função Generator
 @contextmanager
@@ -20,7 +21,7 @@ def MyOpen(caminho, modo):
         arquivo.close()
 
 
-caminho = 'C:\\Users\\lufim\\Documents\\GitHub\\Python\\Udemy\\Section 5\\aulas\\aula24\\teste.txt'
+caminho = os.path.dirname(__file__) + '/aula24/teste.txt'
 
 with MyOpen(caminho, 'w') as arquivo:
     arquivo.write('Linha 1\n')

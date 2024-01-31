@@ -2,8 +2,9 @@
 # USado para salve dados simples (tuplas são convertidas para listas)
 
 import json
+import os
 
-caminho_pasta = 'C:\\Users\\lufim\\Documents\\GitHub\\Python\\Udemy\\Section 4\\aulas\\aula48\\'
+caminho_pasta = os.path.dirname(__file__) + '/aula48/'
 
 # pessoa = {
 #     'nome': 'Luiz Otávio 2',
