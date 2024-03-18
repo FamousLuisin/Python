@@ -13,7 +13,6 @@ class ordena:
         if lista[j] > lista[j+1]:
           #se o elemnto em j for amiro q j+1, elese invertem de local
           lista[j], lista[j+1] = lista[j+1], lista[j]
-          print(lista)
 
     return lista
 
